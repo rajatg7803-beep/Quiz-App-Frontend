@@ -1,0 +1,80 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background: #f9fafb;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.quiz-list, .form, .player, .review {
+  width: 100%;
+  max-width: 700px;
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  transition: all 0.3s;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #2563eb;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.4rem;
+  margin: 0.3rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #1e3a8a;
+}
+
+input, select {
+  width: 100%;
+  margin: 0.3rem 0;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.quiz-card {
+  background: #eff6ff;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.progress {
+  height: 10px;
+  background: #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.bar {
+  height: 100%;
+  background: #2563eb;
+}
